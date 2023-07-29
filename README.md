@@ -25,7 +25,7 @@ const options = [
         }
       ];
 
-      //The options odds sum MUST match 100, otherwise it will throw an error
+      //The sum of all odds MUST match 100, otherwise it will throw an error.
 const fate = new Fate(options);
 const picked = fate.pick(); //Picked up a random option with its chances based on its odds.
 </script>
