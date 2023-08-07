@@ -49,6 +49,10 @@ class Fate {
       );
     });
 
+    if(selected.length === 0){
+      return null;
+    }
+
     return complete ? selected.shift() : selected.shift().option;
   }
 
