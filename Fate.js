@@ -53,7 +53,8 @@ class Fate {
       return null;
     }
 
-    return complete ? selected.shift() : selected.shift().option;
+
+    return complete ? selected.shift() : (selected.shift().option ? selected.shift().option : null);
   }
 
   drawn(){
