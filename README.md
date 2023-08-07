@@ -1,6 +1,6 @@
 ## Fatejs
 
-A javascript plugin to pick up an option based on given odds and statistics
+A javascript implementation to pick up an option based on given odds and statistics
 
 ## Usage
 
