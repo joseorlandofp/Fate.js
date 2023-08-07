@@ -28,5 +28,7 @@ const options = [
       //The sum of all odds MUST match 100, otherwise it will throw an error.
 const fate = new Fate(options);
 const picked = fate.pick(); //Picked up a random option with its chances based on its odds.
+
+const picked = fate.pick(true) //Alternatively, you can pass true to the pick method and it will return the complete object that has been picked up including its assigned interval
 </script>
 ```
